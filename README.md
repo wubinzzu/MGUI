@@ -19,7 +19,7 @@ If the compilation is successful, the evaluator of cpp implementation will be ca
 Otherwise, the evaluator of python implementation will be called.
 
 ## Examples to run MGUI:
-run [main.py] in IDE or with command line:
+run main.py in IDE or with command line:
 ```
 python main.py
 ```
