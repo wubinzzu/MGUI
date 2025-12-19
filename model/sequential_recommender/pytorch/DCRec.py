@@ -891,9 +891,9 @@ def build_sim_graph(dataset, k, phase="train"):
     return g
 
 
-class DCRec3(AbstractRecommender):
+class DCRec(AbstractRecommender):
     def __init__(self, config):
-        super(DCRec3, self).__init__(config)
+        super(DCRec, self).__init__(config)
         self.lr = config["lr"]
         self.reg = config["reg"]
         # self.seq_L = config["L"]
